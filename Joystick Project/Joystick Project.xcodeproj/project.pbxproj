@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390515082283AEBC00496755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390515072283AEBC00496755 /* AppDelegate.swift */; };
+		3905150A2283AEBC00496755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390515092283AEBC00496755 /* ViewController.swift */; };
+		3905150D2283AEBC00496755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3905150B2283AEBC00496755 /* Main.storyboard */; };
+		390515102283AEBC00496755 /* Joystick_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3905150E2283AEBC00496755 /* Joystick_Project.xcdatamodeld */; };
+		390515122283AEC100496755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390515112283AEC100496755 /* Assets.xcassets */; };
+		390515152283AEC100496755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390515132283AEC100496755 /* LaunchScreen.storyboard */; };
+		390515202283AEC100496755 /* Joystick_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905151F2283AEC100496755 /* Joystick_ProjectTests.swift */; };
+		3905152B2283AEC100496755 /* Joystick_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905152A2283AEC100496755 /* Joystick_ProjectUITests.swift */; };
+		3905153D2283B01300496755 /* JoyStickClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905153C2283B01300496755 /* JoyStickClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3905151C2283AEC100496755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 390514FC2283AEBC00496755 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390515032283AEBC00496755;
+			remoteInfo = "Joystick Project";
+		};
+		390515272283AEC100496755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 390514FC2283AEBC00496755 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390515032283AEBC00496755;
+			remoteInfo = "Joystick Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		390515042283AEBC00496755 /* Joystick Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joystick Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		390515072283AEBC00496755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		390515092283AEBC00496755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3905150C2283AEBC00496755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3905150F2283AEBC00496755 /* Joystick_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Joystick_Project.xcdatamodel; sourceTree = "<group>"; };
+		390515112283AEC100496755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		390515142283AEC100496755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		390515162283AEC100496755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3905151B2283AEC100496755 /* Joystick ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Joystick ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3905151F2283AEC100496755 /* Joystick_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joystick_ProjectTests.swift; sourceTree = "<group>"; };
+		390515212283AEC100496755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390515262283AEC100496755 /* Joystick ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Joystick ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3905152A2283AEC100496755 /* Joystick_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joystick_ProjectUITests.swift; sourceTree = "<group>"; };
+		3905152C2283AEC100496755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3905153C2283B01300496755 /* JoyStickClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyStickClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		390515012283AEBC00496755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390515182283AEC100496755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390515232283AEC100496755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390514FB2283AEBC00496755 = {
+			isa = PBXGroup;
+			children = (
+				390515062283AEBC00496755 /* Joystick Project */,
+				3905151E2283AEC100496755 /* Joystick ProjectTests */,
+				390515292283AEC100496755 /* Joystick ProjectUITests */,
+				390515052283AEBC00496755 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		390515052283AEBC00496755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				390515042283AEBC00496755 /* Joystick Project.app */,
+				3905151B2283AEC100496755 /* Joystick ProjectTests.xctest */,
+				390515262283AEC100496755 /* Joystick ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		390515062283AEBC00496755 /* Joystick Project */ = {
+			isa = PBXGroup;
+			children = (
+				390515072283AEBC00496755 /* AppDelegate.swift */,
+				390515092283AEBC00496755 /* ViewController.swift */,
+				3905150B2283AEBC00496755 /* Main.storyboard */,
+				390515112283AEC100496755 /* Assets.xcassets */,
+				390515132283AEC100496755 /* LaunchScreen.storyboard */,
+				390515162283AEC100496755 /* Info.plist */,
+				3905150E2283AEBC00496755 /* Joystick_Project.xcdatamodeld */,
+				3905153C2283B01300496755 /* JoyStickClass.swift */,
+			);
+			path = "Joystick Project";
+			sourceTree = "<group>";
+		};
+		3905151E2283AEC100496755 /* Joystick ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				3905151F2283AEC100496755 /* Joystick_ProjectTests.swift */,
+				390515212283AEC100496755 /* Info.plist */,
+			);
+			path = "Joystick ProjectTests";
+			sourceTree = "<group>";
+		};
+		390515292283AEC100496755 /* Joystick ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3905152A2283AEC100496755 /* Joystick_ProjectUITests.swift */,
+				3905152C2283AEC100496755 /* Info.plist */,
+			);
+			path = "Joystick ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		390515032283AEBC00496755 /* Joystick Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3905152F2283AEC100496755 /* Build configuration list for PBXNativeTarget "Joystick Project" */;
+			buildPhases = (
+				390515002283AEBC00496755 /* Sources */,
+				390515012283AEBC00496755 /* Frameworks */,
+				390515022283AEBC00496755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Joystick Project";
+			productName = "Joystick Project";
+			productReference = 390515042283AEBC00496755 /* Joystick Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3905151A2283AEC100496755 /* Joystick ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390515322283AEC100496755 /* Build configuration list for PBXNativeTarget "Joystick ProjectTests" */;
+			buildPhases = (
+				390515172283AEC100496755 /* Sources */,
+				390515182283AEC100496755 /* Frameworks */,
+				390515192283AEC100496755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3905151D2283AEC100496755 /* PBXTargetDependency */,
+			);
+			name = "Joystick ProjectTests";
+			productName = "Joystick ProjectTests";
+			productReference = 3905151B2283AEC100496755 /* Joystick ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		390515252283AEC100496755 /* Joystick ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390515352283AEC100496755 /* Build configuration list for PBXNativeTarget "Joystick ProjectUITests" */;
+			buildPhases = (
+				390515222283AEC100496755 /* Sources */,
+				390515232283AEC100496755 /* Frameworks */,
+				390515242283AEC100496755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				390515282283AEC100496755 /* PBXTargetDependency */,
+			);
+			name = "Joystick ProjectUITests";
+			productName = "Joystick ProjectUITests";
+			productReference = 390515262283AEC100496755 /* Joystick ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		390514FC2283AEBC00496755 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mohamed Taher";
+				TargetAttributes = {
+					390515032283AEBC00496755 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3905151A2283AEC100496755 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 390515032283AEBC00496755;
+					};
+					390515252283AEC100496755 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 390515032283AEBC00496755;
+					};
+				};
+			};
+			buildConfigurationList = 390514FF2283AEBC00496755 /* Build configuration list for PBXProject "Joystick Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 390514FB2283AEBC00496755;
+			productRefGroup = 390515052283AEBC00496755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				390515032283AEBC00496755 /* Joystick Project */,
+				3905151A2283AEC100496755 /* Joystick ProjectTests */,
+				390515252283AEC100496755 /* Joystick ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		390515022283AEBC00496755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390515152283AEC100496755 /* LaunchScreen.storyboard in Resources */,
+				390515122283AEC100496755 /* Assets.xcassets in Resources */,
+				3905150D2283AEBC00496755 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390515192283AEC100496755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390515242283AEC100496755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		390515002283AEBC00496755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3905153D2283B01300496755 /* JoyStickClass.swift in Sources */,
+				3905150A2283AEBC00496755 /* ViewController.swift in Sources */,
+				390515102283AEBC00496755 /* Joystick_Project.xcdatamodeld in Sources */,
+				390515082283AEBC00496755 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390515172283AEC100496755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390515202283AEC100496755 /* Joystick_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390515222283AEC100496755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3905152B2283AEC100496755 /* Joystick_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3905151D2283AEC100496755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390515032283AEBC00496755 /* Joystick Project */;
+			targetProxy = 3905151C2283AEC100496755 /* PBXContainerItemProxy */;
+		};
+		390515282283AEC100496755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390515032283AEBC00496755 /* Joystick Project */;
+			targetProxy = 390515272283AEC100496755 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3905150B2283AEBC00496755 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3905150C2283AEBC00496755 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		390515132283AEC100496755 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				390515142283AEC100496755 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3905152D2283AEC100496755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3905152E2283AEC100496755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		390515302283AEC100496755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Joystick Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MT.Joystick-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		390515312283AEC100496755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Joystick Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MT.Joystick-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		390515332283AEC100496755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Joystick ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MT.Joystick-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Joystick Project.app/Joystick Project";
+			};
+			name = Debug;
+		};
+		390515342283AEC100496755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Joystick ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MT.Joystick-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Joystick Project.app/Joystick Project";
+			};
+			name = Release;
+		};
+		390515362283AEC100496755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Joystick ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MT.Joystick-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Joystick Project";
+			};
+			name = Debug;
+		};
+		390515372283AEC100496755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Joystick ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MT.Joystick-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Joystick Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		390514FF2283AEBC00496755 /* Build configuration list for PBXProject "Joystick Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3905152D2283AEC100496755 /* Debug */,
+				3905152E2283AEC100496755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3905152F2283AEC100496755 /* Build configuration list for PBXNativeTarget "Joystick Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390515302283AEC100496755 /* Debug */,
+				390515312283AEC100496755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390515322283AEC100496755 /* Build configuration list for PBXNativeTarget "Joystick ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390515332283AEC100496755 /* Debug */,
+				390515342283AEC100496755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390515352283AEC100496755 /* Build configuration list for PBXNativeTarget "Joystick ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390515362283AEC100496755 /* Debug */,
+				390515372283AEC100496755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3905150E2283AEBC00496755 /* Joystick_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3905150F2283AEBC00496755 /* Joystick_Project.xcdatamodel */,
+			);
+			currentVersion = 3905150F2283AEBC00496755 /* Joystick_Project.xcdatamodel */;
+			path = Joystick_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 390514FC2283AEBC00496755 /* Project object */;
+}
